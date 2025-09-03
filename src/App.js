@@ -37,6 +37,7 @@ import {
   Info as InfoIcon
 } from '@mui/icons-material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import UsersTable from './components/UsersTable';
 
 // Environment Variables Configuration
 const config = {
@@ -278,6 +279,11 @@ function App() {
                 </Card>
               </Grid>
             )}
+
+            {/* Users Table */}
+            <Grid item xs={12}>
+              <UsersTable />
+            </Grid>
           </Grid>
         </Container>
 

@@ -1,0 +1,12 @@
+{
+  "organization": "React-MUI-Project",
+  "version": "1.0.0",
+  "enforceRules": true,
+  "ruleInheritance": "strict",
+  "adminControlled": true,
+  "globalRules": {
+    "security": {
+      "noHardcodedSecrets": true
+    }
+  }
+}
