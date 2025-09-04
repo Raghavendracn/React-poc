@@ -32,6 +32,8 @@ const UsersTable = () => {
     fetchUsers();
   }, []);
 
+  const arr=[];
+  console.log(arr);
   const fetchUsers = async () => {
     try {
       setLoading(true);
